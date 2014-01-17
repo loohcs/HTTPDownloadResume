@@ -10,6 +10,9 @@
 
 @implementation CCViewController
 
+//@synthesize downTableView = _downTableView;
+@synthesize downViewController = _downViewController;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -21,12 +24,49 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    if (!self.downViewController)
+//    {
+//        self.downViewController = [[CCDownViewController alloc] init];
+//    }
+//    
+//    [self.navigationController pushViewController:self.downViewController animated:YES];
+//    [self.downViewController viewDidLoad];
+    
+    
+//    self.view.backgroundColor = [UIColor whiteColor];
+//    
+//    CCDownloadInfo* info = [CCDownloadInfo downinfoWithUrl:[NSURL URLWithString:@"abc"] withLinkName:@"This is a lik"];
+//    CCDownloadInfo* info1 = [CCDownloadInfo downinfoWithUrl:[NSURL URLWithString:@"abc"] withLinkName:@"This is a lik1"];
+//    self.downTableView = [[CCDownTableView alloc] initWithArray:[NSArray arrayWithObjects:info,info1, nil]];
+//    self.downTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+//    self.downTableView.rowHeight = 60;
+//    
+//    [self.view addSubview:self.downTableView];
+//    
+//    [info release];
+//    [info1 release];
+    
+//    DownloadView* view1 = [[DownloadView alloc] initWithFrame:CGRectMake(0, 0, 320, 80) withDownloadInfo:info];
+//    [self.view addSubview:view1];
+//    [view1 release];
+//    
+//    view1 = [[DownloadView alloc] initWithFrame:CGRectMake(0, 80, 320, 80) withDownloadInfo:info];
+//    [self.view addSubview:view1];
+//    [view1 release];
+    
+//    [info release];
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] init];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    [_downViewController release];
+//    [_downTableView retain];
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

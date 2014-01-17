@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ios/!svn/ver/3187/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIHTTPRequest.m
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASICacheDelegate.h
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASINetworkQueue.h
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDataDecompressor.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIAuthenticationDialog.h
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIProgressDelegate.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDownloadCache.m
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASINetworkQueue.m
+END
+Reachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/Reachability.h
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDataDecompressor.m
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIAuthenticationDialog.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ios/!svn/ver/3187/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIFormDataRequest.h
+END
+Reachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/Reachability.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIInputStream.h
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIFormDataRequest.m
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIHTTPRequestConfig.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIInputStream.m
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIHTTPRequestDelegate.h
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDataCompressor.h
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIHTTPRequest.h
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDownloadCache.h
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ios/!svn/ver/2945/MXBrowser/trunk/MXBrowserCore/Library/ASIHTTP/ASIDataCompressor.m
+END

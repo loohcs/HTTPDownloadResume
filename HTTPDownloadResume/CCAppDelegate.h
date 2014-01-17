@@ -9,11 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @class CCViewController;
+@class CCDownViewController;
 
 @interface CCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) CCViewController *viewController;
+@property (strong, nonatomic) CCDownViewController* downViewController;
+
+@property (strong, nonatomic) UINavigationController* navController;
 
 @end

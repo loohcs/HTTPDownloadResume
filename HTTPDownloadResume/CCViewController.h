@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCDownViewController.h"
+#import "CCDownloadView.h"
+#import "CCDownloadInfo.h"
+#import "CCDownTableView.h"
 
 @interface CCViewController : UIViewController
+
+//@property (nonatomic,retain) CCDownTableView* downTableView;
+
+@property (nonatomic,retain) CCDownViewController* downViewController;
 
 @end

@@ -9,16 +9,20 @@
 #import "CCAppDelegate.h"
 
 #import "CCViewController.h"
+#import "CCDownViewController.h"
 
 @implementation CCAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize downViewController = _downViewController;
+@synthesize navController = _navController;
 
 - (void)dealloc
 {
     [_window release];
     [_viewController release];
+    [_navController release];
     [super dealloc];
 }
 
@@ -26,8 +30,19 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[CCViewController alloc] initWithNibName:@"CCViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+//    self.viewController = [[[CCViewController alloc] initWithNibName:@"CCViewController" bundle:nil] autorelease];
+//    self.window.rootViewController = self.viewController;
+//    [self.window.rootViewController setTitle:@"Download Queue"];
+//    _navController = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
+    
+//    self.downViewController = [[[CCDownViewController alloc] initWithNibName:@"CCDownViewController" bundle:nil] autorelease];
+    self.downViewController = [[[CCDownViewController alloc] init] autorelease];
+    self.window.rootViewController = self.downViewController;
+    [self.window.rootViewController setTitle:@"Download Queue"];
+    _navController = [[[UINavigationController alloc] initWithRootViewController:self.downViewController] autorelease];
+    
+    [self.window addSubview:self.navController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
